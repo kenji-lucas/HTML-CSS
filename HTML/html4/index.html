@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+</head>
+<body>
+    <h1>Outras formatações de texto</h1>
+
+    <h2>Código-fonte: &lt;code&gt;</h2>
+    <p>
+        O comando <code>document.getElementById</code> é escrito em linguagem JavaScript.
+    </p>
+    <pre> <!--Tag utilizada para aplicar identação-->
+        <code> <!--Exemplo em Python:-->
+num = int(input('Digite um número:'))
+if num / 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim')
+        </code>
+    </pre>
+    
+    <h2>Citações simples: &lt;q&gt;</h2>
+    <p>
+        Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q>.
+    </p>
+
+    <h2>Citações completas: &lt;blockquote&gt;</h2> <!--Para citação com quebra de linha-->
+    <p>
+        Segundo René Descartes, em seu livro "As paixões da alma":
+    </p>
+    <blockquote cite="https://www.estantevirtual.com.br/sebo-kapricho-3/descartes-as-paixoes-da-alma-3522165235?show_suggestion=0">
+        A leitura de todos os bons livros é uma conversação com as mais honestas pessoas dos séculos passados.
+    </blockquote>
+
+    <h2>Abreviações: &lt;abbr&gt;</h2> <!--Pop-up com significado de uma sigla-->
+    <p>
+        Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>!
+    </p>
+</body>
+</html>
