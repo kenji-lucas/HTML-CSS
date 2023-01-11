@@ -13,8 +13,8 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
-            text-align: center;
         }
         
         tr {
@@ -28,10 +28,17 @@
         td {
             border: 1px solid black;
             padding: 8px;
+            
+            text-align: center;
+            vertical-align: middle;
         }
 
         td.dadob4 {
             background-color: blue;
+        }
+
+        .num {
+            text-align: right;
         }
 
     </style>
@@ -53,11 +60,11 @@
         </tr>
         <tr>
             <td>A2</td>
-            <td>B2</td>
+            <td class="num">B2</td>
             <td>C2</td>
         </tr>
         <tr>
-            <td>A3</td>
+            <td class="num">A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
