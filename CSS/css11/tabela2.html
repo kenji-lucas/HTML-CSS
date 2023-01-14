@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -31,6 +32,12 @@
         thead, tfoot {
             background-color: rgb(53, 53, 53);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(53, 53, 53);
         }
 
         tbody > tr:nth-child(odd) {
@@ -125,12 +132,97 @@
                 <td>Santa Catarina</td>
                 <td class="num">6.248.436</td>
             </tr>
+            <tr>
+                <td class="posicao">11</td>
+                <td>Goiás</td>
+                <td class="num">6.003.788</td>
+            </tr>
+            <tr>
+                <td class="posicao">12</td>
+                <td>Maranhão</td>
+                <td class="num">6.574.789</td>
+            </tr>
+            <tr>
+                <td class="posicao">13</td>
+                <td>Espírito Santo</td>
+                <td class="num">3.514.952</td>
+            </tr>
+            <tr>
+                <td class="posicao">14</td>
+                <td>Paraíba</td>
+                <td class="num">3.766.528</td>
+            </tr>
+            <tr>
+                <td class="posicao">15</td>
+                <td>Amazonas</td>
+                <td class="num">3.482.985</td>
+            </tr>
+            <tr>
+                <td class="posicao">16</td>
+                <td>Mato Grosso</td>
+                <td class="num">3.035.122</td>
+            </tr>
+            <tr>
+                <td class="posicao">17</td>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.168.027</td>
+            </tr>
+            <tr>
+                <td class="posicao">18</td>
+                <td>Piauí</td>
+                <td class="num">3.118.360</td>
+            </tr>
+            <tr>
+                <td class="posicao">19</td>
+                <td>Alagoas</td>
+                <td class="num">3.120.494</td>
+            </tr>
+            <tr>
+                <td class="posicao">20</td>
+                <td>Distrito Federal</td>
+                <td class="num">2.923.369</td>
+            </tr>
+            <tr>
+                <td class="posicao">21</td>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.449.024</td>
+            </tr>
+            <tr>
+                <td class="posicao">22</td>
+                <td>Sergipe</td>
+                <td class="num">2.068.017</td>
+            </tr>
+            <tr>
+                <td class="posicao">23</td>
+                <td>Rondônia</td>
+                <td class="num">1.562.409</td>
+            </tr>
+            <tr>
+                <td class="posicao">24</td>
+                <td>Tocantins</td>
+                <td class="num">1.383.445</td>
+            </tr>
+            <tr>
+                <td class="posicao">25</td>
+                <td>Acre</td>
+                <td class="num">733.559</td>
+            </tr>
+            <tr>
+                <td class="posicao">26</td>
+                <td>Amapá</td>
+                <td class="num">669.526</td>
+            </tr>
+            <tr>
+                <td class="posicao">27</td>
+                <td>Roraima</td>
+                <td class="num">450.479</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">#</th>
                 <th scope="row">Total de habitantes</th>
-                <td><strong>143.083.135</strong></td>
+                <td><strong>2.042.818.444</strong></td>
             </tr>
         </tfoot>
     </table>
